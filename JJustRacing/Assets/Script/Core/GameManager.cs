@@ -152,6 +152,7 @@ public class GameManager : MonoBehaviour
 	}
 	public void GameStart()
 	{
+		Time.timeScale = 1;
 		SceneManager.LoadScene("Stage1");
 	}
 	public void GameQuit()
